@@ -1,0 +1,42 @@
+.EventForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .EventForm h2 {
+    margin-bottom: 10px;
+  }
+  
+  .EventForm div {
+    margin-bottom: 15px;
+  }
+  
+  .EventForm label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .EventForm input[type="text"],
+  .EventForm input[type="date"],
+  .EventForm textarea,
+  .custom {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .EventForm .submitBtn {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .EventForm .button:hover {
+    background-color: #45a049;
+  }
